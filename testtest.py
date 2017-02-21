@@ -5,4 +5,4 @@ def return2():
     return 2
     
 def test_return2():
-    assert(return2() == 0)
+    assert(return2() == 2)
