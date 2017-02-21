@@ -1,3 +1,4 @@
+
 def reverse_words(s):
     """
     Reverses order or words in string s.
@@ -33,4 +34,9 @@ def obscure_function():
     """
     Example of a function that is never tested.
     """
-    do_something_strange()
+    def do_something_strange():
+        return 0
+    return do_something_strange()
+
+def test_obscure_functio():
+    assert(obscure_function() == 0)
